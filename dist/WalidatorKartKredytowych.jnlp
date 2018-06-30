@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="WalidatorKartKredytowych.jnlp">
+  <information>
+    <title>WalidatorKartKredytowych</title>
+    <vendor>Kiro</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="WalidatorKartKredytowych.jar" size="5417" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="WalidatorKartKredytowych" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="walidatorkartkredytowych.WalidatorKartKredytowych"  name="WalidatorKartKredytowych" />
+  <update check="always"/>
+</jnlp>
